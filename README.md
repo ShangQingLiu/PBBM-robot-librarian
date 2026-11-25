@@ -1,15 +1,11 @@
-# PBBM-librarian-robot 
-This is the public repository of [paper](https://arxiv.org/abs/2210.10110) 
-The librarian project aims to implement an librarian system that helping people
-to arrage the books on the shelf.
+# PBBM-robot-librarian
 
-We split the whole project into three modules:
+Public code for the librarian robot project: a system that helps rearrange books on a shelf.
 
-* librarian\_vision : vision piepeline
-* librarian\_manipulation: manipulation pipeline
-* librarian\_common: common resources like topic definition or books database
+- Paper: [Multi-Stage Book Perception and Bimanual Manipulation for Rearranging Book Shelves](https://arxiv.org/abs/2210.10110) (IAS-18; also in *Lecture Notes in Networks and Systems*, vol. 795, [doi:10.1007/978-3-031-44851-5_38](https://doi.org/10.1007/978-3-031-44851-5_38))
 
-- [ ] Update Arxiv paper for IAS'18 conference
-- [ ] Upload demo video
+The project is split into three modules:
 
-
+- `librarian_vision` — vision pipeline
+- `librarian_manipulation` — manipulation pipeline
+- `librarian_common` — shared resources such as topic definitions and a book database
